@@ -210,7 +210,7 @@ Found a bug or have a suggestion? Please open an issue on GitHub with a clear de
 
 For support, please reach out via:
 - GitHub Issues: [Create an Issue](https://github.com/RupeshPradhan33/ai-powered-habit-tracker-app/issues)
-- Email: rupeshpradhan33@example.com
+- Email: codingninjarupesh@gmail.com
 
 ## 🙏 Acknowledgments
 
