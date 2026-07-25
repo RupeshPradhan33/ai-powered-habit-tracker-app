@@ -42,10 +42,22 @@ export const chatCompletion = async ({ system, user, temperature = 0.7 }) => {
       },
     });
     return { ok: true, content: (res.text || "").trim() };
-  } catch (err) {
-    console.error("AI error:", err.message);
-    return { ok: false, content: "AI request failed. Please try again later." };
-  }
+    } catch (err) {
+  console.error("========== GEMINI ERROR ==========");
+  console.error(err);
+  console.error("Message:", err.message);
+
+  if (err.status) console.error("Status:", err.status);
+  if (err.code) console.error("Code:", err.code);
+  if (err.response) console.error("Response:", err.response);
+
+  throw err;
+}
+
+//   } catch (err) {
+//     console.error("AI error:", err.message);
+//     return { ok: false, content: "AI request failed. Please try again later." };
+//   }
 };
 
 
