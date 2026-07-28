@@ -1,6 +1,13 @@
 # 🎯 AI-Powered Habit Tracker App
 
-A full-stack habit tracking application with AI-powered insights, GitHub-style streak visualization, and personalized recommendations. Built with the MERN stack and enhanced with Google Gemini AI for intelligent habit analysis and streak recovery planning.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://ai-powered-habit-tracker-app.vercel.app)
+
+A full-stack habit tracking application with AI-powered insights, GitHub-style streak visualization, and personalized recommendations. Built with the MERN stack and enhanced with Google Gemini AI for [...]
+
+## 🔗 Live Demo & Deployments
+
+- **Frontend (Live Demo):** https://ai-powered-habit-tracker-app.vercel.app
+- **Backend API:** https://ai-powered-habit-tracker-app.onrender.com
 
 ## ✨ Features
 
@@ -70,7 +77,7 @@ Before you begin, ensure you have the following installed:
    ```
 
    Create a `.env` file in the `frontend` directory:
-   ```
+   ```bash
    REACT_APP_API_URL=http://localhost:5000
    ```
 
