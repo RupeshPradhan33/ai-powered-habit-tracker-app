@@ -9,6 +9,14 @@ A full-stack habit tracking application with AI-powered insights, GitHub-style s
 - **Frontend (Live Demo):** https://ai-powered-habit-tracker-app.vercel.app
 - **Backend API:** https://ai-powered-habit-tracker-app.onrender.com
 
+### Demo
+
+Click the images to open the live demo:
+
+[![App Demo - Landing](./frontend/public/demo.png)](https://ai-powered-habit-tracker-app.vercel.app)
+
+[![App Demo - Dashboard](./frontend/public/demo2.png)](https://ai-powered-habit-tracker-app.vercel.app)
+
 ## ✨ Features
 
 - **JWT Authentication**: Secure user authentication and authorization
